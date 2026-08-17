@@ -124,3 +124,30 @@ My goal is to move from:
 │   └── ...
 │
 └── README.md
+🏆 My Rules
+
+✅ Understand the problem first
+✅ Write the solution myself
+✅ Analyze Time & Space Complexity
+✅ Revisit difficult problems
+✅ Focus on patterns
+✅ Stay consistent
+
+❌ No blindly copying solutions
+❌ No chasing problem counts
+❌ No skipping complexity analysis
+
+📈 Progress Philosophy
+
+Progress > Perfection
+
+One problem at a time.
+One concept at a time.
+One day at a time.
+
+🚀 100 Days → Stronger DSA → Interview Ready
+
+🔗 Follow the Journey
+
+📸 Instagram: [TRIO CODES] (https://www.instagram.com/trio.codes?igsh=MWhibGFkaWdjbW9hdg%3D%3D&utm_source=qr)
+🧵 Threads: [TRIO CODES] (https://www.threads.com/@trio.codes)

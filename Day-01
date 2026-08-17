@@ -1,0 +1,47 @@
+# DSA - Phase 1: Programming Foundation 🐍
+
+This phase focuses on building programming fundamentals through basic DSA problems.
+
+## Day 1
+
+### 1. Positive / Negative / Zero
+
+```python
+1. # Positive / Negative
+
+def check_number(num):
+    if num == 0:
+        return "Zero"
+    elif num > 0:
+        return "Positive"
+    else:
+        return "Negative"
+
+num = int(input("Enter a number: "))
+print(check_number(num))
+-----------------------------------
+-----------------------------------
+2. # Even / Odd
+
+def check_even_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+num = int(input("Enter a number: "))
+print(check_even_odd(num))
+------------------------------------
+-------------------------------------
+3. # Greatest of Three Numbers
+
+def largest_three(a, b, c):
+    if a >= b and a >= c:
+        return a
+    elif b >= a and b >= c:
+        return b
+    else:
+        return c
+
+a, b, c = map(int, input("Enter three numbers: ").split())
+print(largest_three(a, b, c))

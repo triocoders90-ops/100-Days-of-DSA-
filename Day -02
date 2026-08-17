@@ -1,0 +1,56 @@
+#DSA PHASE 1
+1. #Sum of N Natural Numbers
+def natural_sum(num):
+    sum = 0
+    for i in range (0,num+1):
+        sum += i
+    return sum
+
+number = int(input("Enter the Value :"))
+print(natural_sum(number))
+
+========================================
+2. #Sum of Numbers in a Given Range
+def sum_of_n(start,stop):
+    sum =0 
+    for i in range (start,stop+1): #The loop will be stop at the before the last integer so we added stop+1
+        sum +=i
+    return sum
+
+start = int(input("Enter the starting integer :"))
+stop = int(input("Enter the Ending integer :"))
+print(sum_of_n(start,stop))
+
+==========================================
+
+3. #CHECK GCD OF TWO NUMBERS 
+def gcd_of_two(a,b):
+    while a!=b:
+        if a > b:
+            a = a-b
+        else:
+            b = b-a
+    return a # the loop will continue till the a value is equal to b value so the a value is returned
+
+a = int(input("Enter the First Value :"))
+b = int(input("Enter the Second Value : "))
+print(gcd_of_two(a,b))
+==========================================
+4. #CHECK LCM OF TWO NUMBERS 
+def lcm_of_two(a,b):        
+    temp1 = a
+    temp2 = b
+
+    while a!=b:
+        if a > b:
+            a = a-b
+        else:
+            b = b-a
+
+    gcd = a
+    lcm = (temp1 * temp2) // gcd
+    return lcm
+
+a = int(input("Enter the A Value :"))   
+b = int(input("Enter the B Value :"))   
+print(lcm_of_two(a,b))

@@ -1,0 +1,99 @@
+#DSA PHASE 1
+1. #FACTORIAL OF A NUMBER
+
+def factorial(num):
+    if num == 0 or num == 1:
+        return 1  # Base case: factorial of 0 or 1 is 1
+    return num * factorial(num - 1) 
+    # Recursive call: reduce the problem by 1
+
+number = int(input("Enter the Value :"))
+print(factorial(number))
+
+========================================
+
+2. #SUM OF N NATURAL NUMBERS USING RECURSION
+
+def natural_sum(num):
+    if num == 0:
+        return 0  # Base case: sum of 0 is 0
+
+    return num + natural_sum(num - 1)
+    # Recursive call: add current number with sum of remaining numbers
+
+number = int(input("Enter the Value :"))
+print(natural_sum(number))
+
+==========================================
+
+3. #FIBONACCI NUMBER USING RECURSION
+
+def fibonacci(num):
+    if num == 0:
+        return 0  # Base case for the first Fibonacci number
+
+    if num == 1:
+        return 1  # Base case for the second Fibonacci number
+
+    return fibonacci(num - 1) + fibonacci(num - 2)
+    # Recursive calls continue until the base cases are reached
+
+number = int(input("Enter the Position :"))
+print(fibonacci(number))
+
+==========================================
+
+4. #POWER OF A NUMBER USING RECURSION
+
+def power_of_number(base, exponent):
+    if exponent == 0:
+        return 1  # Base case: any number raised to 0 is 1
+
+    return base * power_of_number(base, exponent - 1)
+    # Recursive call: decrease exponent by 1
+
+base = int(input("Enter the Base :"))
+exponent = int(input("Enter the Exponent :"))
+
+print(power_of_number(base, exponent))
+
+==========================================
+
+5. #TOWER OF HANOI
+
+def tower_of_hanoi(n, source, auxiliary, destination):
+
+    if n == 1:
+        print("Move disk 1 from", source, "to", destination)
+        return
+        # Stop the recursive call and go back to the previous call
+
+    tower_of_hanoi(n - 1, source, destination, auxiliary)
+    # Move n-1 disks from source to auxiliary
+
+    print("Move disk", n, "from", source, "to", destination)
+    # Move the largest disk to the destination
+
+    tower_of_hanoi(n - 1, auxiliary, source, destination)
+    # Move n-1 disks from auxiliary to destination
+
+number = int(input("Enter the Number of Disks :"))
+tower_of_hanoi(number, "A", "B", "C")
+
+
+==================================================
+
+Topic: Recursion
+
+1. Factorial of a Number
+2. Sum of N Natural Numbers
+3. Fibonacci Number
+4. Power of a Number
+5. Tower of Hanoi
+
+Key Concept:
+Base Case → Recursive Call → Return
+
+Tower of Hanoi:
+Time Complexity  : O(2^n)
+Space Complexity : O(n)

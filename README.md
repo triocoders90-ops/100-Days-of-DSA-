@@ -31,9 +31,9 @@ I'm focusing on:
 
 | Day | Topic | Problems | Status |
 |---|---|---:|---|
-| 🟢 Day 01 | Programming Foundations | 4 | ✅ Complete |
-| 🟢 Day 02 | Recursion Basics | 3 | 🔄 In Progress |
-| ⚪ Day 03 | Recursion Basics | 3 | ⏳ Upcoming |
+| 🟢 Day 01 | Programming Foundations | 4 | ✅ Completed |
+| 🟢 Day 02 | Recursion Basics | 3 |  ✅ Completed |
+| ⚪ Day 03 | Recursion Basics | 3 |  ✅ Completed|
 | ⚪ Day 04 | Recursion Basics | 3 | ⏳ Upcoming |
 | ⚪ ... | ... | ... | ⏳ |
 | 🔴 Day 100 | Final Challenge | — | ⏳ |
